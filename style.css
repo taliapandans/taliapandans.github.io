@@ -1,0 +1,63 @@
+body, html {
+  height: 100%;
+  }
+
+.bgimg{
+  background-image: url(pexels-valery-5323520.jpg);
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+
+/*middle content*/
+.sectionmiddle{
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 50px;
+}
+
+/* social media icon */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.fa-envelope {
+  color: white;
+  fill: currentColor;
+}
+.fa-twitter {
+  color: white;
+  fill: currentColor;
+}
+.fa-instagram {
+  color: white;
+  fill: currentColor;
+}
+.fa-linkedin {
+  color: white;
+  fill: currentColor;
+}
+.fa-github {
+  color: white;
+  fill: currentColor;
+}
+
+/* footer content*/
+.footerright{
+  position: absolute;
+  bottom: 0;
+  text-align: right;
+  right: 10px;
+  line-height: 50%;
+  font-size: 18px;
+  margin: auto;
+}
