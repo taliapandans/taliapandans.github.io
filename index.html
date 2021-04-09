@@ -1,46 +1,49 @@
 <!DOCTYPE html>
-<!-- Inspired By CodingNepal -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Talia's Portofolio</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-circle-progress/1.2.2/circle-progress.min.js" integrity="sha512-6kvhZ/39gRVLmoM/6JxbbJVTYzL/gnbDVsHACLx/31IREU4l3sI7yeO0d4gw8xU5Mpmm/17LMaDHOCf+TvuC2Q==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
 </head>
 <body>
+    <!-- Navigation Bar -->
     <nav class="navbar">
         <div class="max-width">
-            <div class="logo"><a href="#">taliapandans.com</a></div>
+            <div class="logo"><a href="#">Talia</a></div>
             <ul class="menu">
-                <li><a href="#home" class="menu-button">Home</a></li>
-                <li><a href="#about" class="menu-button">About</a></li>
-                <li><a href="#projects" class="menu-button">Projects</a></li>
-                <li><a href="#contact" class="menu-button">Contact</a></li>
+                <li><a href="#home" class="menu-btn">Home</a></li>
+                <li><a href="#about" class="menu-btn">About</a></li>
+                <li><a href="#projects" class="menu-btn">Projects</a></li>
+                <li><a href="#contact" class="menu-btn">Contact</a></li>
             </ul>
-            <div class="menu-button">
+            <div class="menu-btn">
                 <i class="fas fa-bars"></i>
             </div>
         </div>
     </nav>
 
-    <!-- home section start -->
+    <!-- Home -->
     <section class="home" id="home">
-      <div class="max-width">
-          <div class="row">
+        <div class="max-width">
             <div class="home-content">
-                <div class="text-2">Talia Pandan Sari</div>
-                <div class="text-3">I am <span class="typing"></span></div>
+                <div class="text-1">
+                    <div class="text-1">Talia Pandan Sari</div>
+                    <div class="text-3">I am <span class="typing"></span></div>
+                </div>
             </div>
-          </div>
-      </div>
+        </div>
     </section>
 
-    <!-- about section start -->
+    <!-- About -->
     <section class="about" id="about">
         <div class="max-width">
             <h2 class="title">About me</h2>
@@ -49,185 +52,18 @@
                     <img src="images/Talia.png" alt="">
                 </div>
                 <div class="column right">
-                    <p>Hi there, my name is Talia from Indonesia. I am a master's student of electrical engineering with focus on automation engineering at TU Berlin.</p>
-                    <p>Status : Looking for a student job</p>
-                    <a href="#">Download CV</a>
-                </div>
-            </div>
-            <!-- skills -->
-            <h2 class="title">My skills</h2>
-            <div class="skills-content">
-                <div class="wrapper">
-                    <div class="card">
-                        <div class="circle Moffice">
-                            <div class="bar"></div>
-                            <div class="number"><span></span></div>
-                        </div>
-                        <div class="text">Microsoft Office</div>
-                    </div>
-                    <div class="card MATLAB">
-                        <div class="circle">
-                            <div class="bar"></div>
-                            <div class="number"><span></span></div>
-                        </div>
-                        <div class="text">MATLAB</div>
-                    </div>
-                    <div class="card SpaceEx">
-                        <div class="circle">
-                            <div class="bar"></div>
-                            <div class="number"><span></span></div>
-                        </div>
-                        <div class="text">SpaceEx</div>
-                    </div>
-                    <div class="card Eagle">
-                        <div class="circle">
-                            <div class="bar"></div>
-                            <div class="number"><span></span></div>
-                        </div>
-                        <div class="text">Eagle CAD</div>
-                    </div>
-                    <div class="card Python">
-                        <div class="circle">
-                            <div class="bar"></div>
-                            <div class="number"><span></span></div>
-                        </div>
-                        <div class="text">Python</div>
-                    </div>
-                    <div class="card HTML">
-                        <div class="circle">
-                            <div class="bar"></div>
-                            <div class="number"><span></span></div>
-                        </div>
-                        <div class="text">HTML/CSS</div>
+                    <div class="text">
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias accusamus rem quae fugiat cum officia libero assumenda recusandae dicta nobis praesentium numquam facilis, corrupti iusto, repellendus laboriosam excepturi! Molestiae, vitae?
+                        </p>
+                        <a href="#">Download CV</a>
                     </div>
                 </div>
-            </div>
-            <!-- education and experience -->
-            <h2 class="title">Education & Experience</h2>
-            <div class="education-experience">
-                <div class="column left">
-                    <div class="education">
-                        <div class="timeline-box">
-                            <div class="timeline">
-                                <div class="ed-line"></div>
-                                <div class="timeline-date">
-                                    <div class="ed-symbol">
-                                        <i class="fa fa-graduation-cap" aria-hidden="true"></i>
-                                    </div>
-                                    <!-- <div class="ed-line"></div> -->
-                                    <h6>2021 - present</h6>
-                                </div>
-                                <h3 class="timeline-title">Master Degree</h4>
-                                <h5 class="timeline-major">in Electrical Engineering and Computer Science</h2>
-                                <div class="timeline-text">
-                                    <p>Technische Universität Berlin</p>
-                                    <p> Focus on automation engineering (Automatisierungstechnik)</p>
-                                </div>
-                            </div>
-                            <div class="timeline">
-                                <div class="timeline-date">
-                                    <div class="ed-symbol">
-                                        <i class="fa fa-graduation-cap" aria-hidden="true"></i>
-                                    </div>
-                                    <h6>2016 - 2021</h6>
-                                </div>
-                                <h3 class="timeline-title">Bachelor Degree</h4>
-                                <h5 class="timeline-major">in Electrical Engineering and Computer Science</h2>
-                                <div class="timeline-text">
-                                    <p>Leibniz Universität Hannover</p>
-                                    <p> Focus on automation engineering (Automatisierungstechnik)</p>
-                                </div>
-                            </div>
-                            <div class="timeline">
-                                <div class="timeline-date">
-                                    <div class="ed-symbol">
-                                        <i class="fa fa-graduation-cap" aria-hidden="true"></i>
-                                    </div>
-                                    <h6>2016 - 2021</h6>
-                                </div>
-                                <h3 class="timeline-title">Abitur</h4>
-                                <h5 class="timeline-major">T-Kurs</h2>
-                                <div class="timeline-text">
-                                    <p>in Studienkolleg Hannover</p>
-                                    <p>Pre-college Course for International Students</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>    
-                </div>
-                <div class="column right">
-                    <div class="experience">
-                        <div class="timeline-box">
-                            <div class="timeline">
-                                <div class="ed-line"></div>
-                                <div class="timeline-date">
-                                    <div class="ex-symbol">
-                                        <i class="fa fa-briefcase" aria-hidden="true"></i>
-                                    </div>
-                                    <!-- <div class="ed-line"></div> -->
-                                    <h6>02.2020 - 01.2021</h6>
-                                </div>
-                                <h3 class="timeline-title">Student Assistant (Part-time)</h4>
-                                <h5 class="timeline-major">in Institute of Microelectronic Systems</h2>
-                                <div class="timeline-text">
-                                    <p>Leibniz Universität Hannover</p>
-                                    <p>Simulation and verification of analog-mixed-signal integrated circuits using reachability analysis.</p>
-                                </div>
-                            </div>
-                            <div class="timeline">
-                                <div class="timeline-date">
-                                    <div class="ex-symbol">
-                                        <i class="fa fa-briefcase" aria-hidden="true"></i>
-                                    </div>
-                                    <!-- <div class="ed-line"></div> -->
-                                    <h6>2017 - 2019</h6>
-                                </div>
-                                <h3 class="timeline-title">Werkstudent (Part-time)</h4>
-                                <h5 class="timeline-major">in KRH GmbH</h2>
-                                <div class="timeline-text">
-                                    <p>STUDITEMPS GmbH</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
             </div>
         </div>
     </section>
 
-    <!-- projects section start
-    <section class="projects" id="projects">
-        <div class="max-width">
-        </div>
-    </section> -->
-
-    <!-- contact section start -->
-    <section class="contact" id="contact">
-        <div class="max-width">
-            <h2 class="title">My Contact</h2>
-            <div class="email">
-                <h3>Mail Me</h3>
-                <div class="mail-symbol">
-                    <!-- <i class="fa fa-envelope-open" aria-hidden="true"></i> -->
-                    <i class="fa fa-envelope-open" aria-hidden="true"></i>
-                    <p>taliapandans (at) protonmail.com</p>
-                </div>
-            </div>
-            <div class="social-media">
-                <a href="https://twitter.com/taliapandans/" target="_blank" class="fa fa-twitter"></a>
-                <a href="https://www.instagram.com/taliapandans/" target="_blank" class="fa fa-instagram"></a>
-                <a href="https://www.linkedin.com/in/talia-sari-975906165/" target="_blank" class="fa fa-linkedin"></a>
-                <a href="https://github.com/taliapandans/" target="_blank" class="fa fa-github"></a>
-            </div>
-        </div>
-    </section>
-
-    <!-- footer section -->
-    <footer>
-        <span>Created By <a href="https://taliapandans.com">taliapandans.com</a> | <span class="fa fa-copyright"></span> 2021 All rights reserved.</span>
-    </footer>
-
+    <!-- Javascript -->
     <script src="script.js"></script>
-</body>
+</body>    
 </html>
