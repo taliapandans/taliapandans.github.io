@@ -158,6 +158,8 @@ section .title::before{
     text-align: justify;
     color: white;
     font-size: 18px;
+    letter-spacing: 0.5px;
+    margin-bottom: 30px; /* between paragraphs */
     /* padding-bottom: 10px; */
 }
 .about .about-content .right a{
@@ -180,6 +182,8 @@ section .title::before{
 /* skills */
 .about .skills-content{
     /* background: white; */
+    margin-top: 30px;
+    margin-bottom: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -306,9 +310,10 @@ section .title::before{
 .about .education-experience .timeline .timeline-text{
     font-weight: 500;
     font-size: 16px;
-    padding-bottom: 50px;
-    line-height: 25px;
+    padding-bottom: 20px;
+    line-height: 28px;
     padding-left: 55px;
+    margin-bottom: 20px;
 }
 .about .education-experience .experience{
     padding: 40px, 15px;
@@ -338,6 +343,7 @@ section .title::before{
     border-radius: 6px;
     padding: 25px 35px;
     text-align: center;
+    overflow: hidden;
     transition: all 0.3s ease;
 }
 .projects .carousel .card:hover{
@@ -355,7 +361,7 @@ section .title::before{
 }
 .projects .carousel .card img{
     height: 150px;
-    width: 200px;
+    width: 150px;
     object-fit: cover;
     border: solid crimson;
     transition: all 0.3s ease;
@@ -364,8 +370,7 @@ section .title::before{
     border-color: white;
 }
 .projects .carousel .card .box h4{
-    padding-bottom: 10px;
-    padding-top: 20px;
+    margin: 10px 0 7px 0;
 }
 .owl-dots{
     text-align: center;
@@ -546,20 +551,22 @@ footer span a:hover{
         width: 100%;
         display: inline;
     }
-    .about .education-experience .left{
+    .about .education-experience .left,
+    .about .education-experience .right
+    {
         width: 100%;
         position: relative;
-        margin-left: 40px;
-        /* margin-right: 20px; */
+        margin-left: 20px;
+        margin-right: 20px;
         justify-content: center;
         align-items: center;
     }
-    .about .education-experience .right{
+    /* .about .education-experience .right{
         width: 100%;
         position: relative;
         margin-left: 40px;
         justify-content: center;
-    }
+    } */
     .contact .contact-row .left{
         width: 100%;
         position: relative;
@@ -623,8 +630,9 @@ footer span a:hover{
     .right form .error-box{
        width: 150px;
     }
-    .projects .carousel .card .box img{
+}
+    /* .projects .carousel .card .box img{
         height: 100px;
-        width: 150px;
-    }
+        width: 85px;
+    } */
 }

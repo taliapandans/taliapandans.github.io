@@ -35,22 +35,22 @@ $(document).ready(function(){
         $(this).parent().find("span").text(String(stepValue.toFixed(2).substr(2)) + "%")
     });
     $(".Moffice .bar").circleProgress({
-        value : 0.85, 
+        value : 0.95, 
     });
     $(".MATLAB .bar").circleProgress({
-        value : 0.65, 
+        value : 0.85, 
     });
     $(".SpaceEx .bar").circleProgress({
-        value : 0.60, 
-    });
-    $(".Eagle .bar").circleProgress({
-        value : 0.40, 
+        value : 0.65, 
     });
     $(".Python .bar").circleProgress({
-        value : 0.30, 
+        value : 0.50, 
+    });
+    $(".Eagle .bar").circleProgress({
+        value : 0.60, 
     });
     $(".HTML .bar").circleProgress({
-        value : 0.20, 
+        value : 0.55, 
     });
 
     // owl carousel script (projects)
