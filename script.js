@@ -28,7 +28,7 @@ $(document).ready(function(){
         startAngle : -1.55,
         size: 150,
         value: 0.85,
-        fill: {color: "#2c6e49"}
+        fill: {color: "red"}
     }
     $(".circle .bar").circleProgress(options).on('circle-animation-progress',
     function(event, progress, stepValue){
@@ -56,7 +56,7 @@ $(document).ready(function(){
     // owl carousel script (projects)
     $('.carousel').owlCarousel({
         margin: 20,
-        // loop: true,
+        loop: true,
         autoplayTimeOut: 2000,
         autoplayHoverPause: true,
         responsive: {
