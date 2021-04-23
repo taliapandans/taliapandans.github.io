@@ -17,10 +17,11 @@ section{
     /* color: white; */
 }
 section .title{
-    color: whitesmoke;
+    color: #e2dfd2;
     position: relative;
     text-align: center;
     padding-bottom: 50px;
+    font-size: 30px;
 }
 .max-width{
     max-width: 1400px;
@@ -46,7 +47,7 @@ section .title::before{
     left: 50%;
     width: 180px;
     height: 2px;
-    background:wheat;
+    background:#D96044;
     transform: translateX(-50%);
 }
 
@@ -61,7 +62,7 @@ section .title::before{
 }
 .navbar.sticky{
     padding: 14px 0;
-    background: crimson;
+    background: #2c6e49;
 }
 .navbar .max-width{
     display: flex;
@@ -69,7 +70,7 @@ section .title::before{
     justify-content: space-between;
 }
 .navbar .logo a{
-    color: #fff;
+    color: #e2dfd2;
     font-size: 30px;
     font-weight: 600;
 }
@@ -79,22 +80,22 @@ section .title::before{
 }
 .navbar .menu li a{
     display: block;
-    color: #fff;
+    color: #e2dfd2;
     font-size: 20px;
     font-weight: 500;
     margin-left: 25px;
     transition: color 0.3s ease;
 }
 .navbar .menu li a:hover{
-    color: crimson;
+    color: #ec5a35;
 }
 .navbar.sticky .menu li a:hover{
-    color: #fff;
+    color: #e2dfd2;
 }
 
 /* menu button styling */
 .menu-button{
-    color: #fff;
+    color: #e2dfd2;
     font-size: 23px;
     cursor: pointer;
     display: none;
@@ -109,7 +110,7 @@ section .title::before{
     background-repeat: no-repeat;
     background-size: contain;
     height: 100vh;
-    color: #fff;
+    color: #e2dfd2;
     min-height: 500px;
     background-size: cover;
     background-attachment: fixed;
@@ -134,12 +135,12 @@ section .title::before{
     text-align: center;
 }
 .home .home-content .text-3 span{
-    color: crimson;
+    color: #D96044;
 }
 
 /* about section */
 .about{
-    background: black;
+    background: #141412;
 }
 .about-content{
     padding-bottom: 30px;
@@ -159,26 +160,33 @@ section .title::before{
 }
 .about .about-content .right p{
     text-align: justify;
-    color: white;
+    color: #e2dfd2;
     font-size: 18px;
     letter-spacing: 0.5px;
     margin-bottom: 30px; /* between paragraphs */
     /* padding-bottom: 10px; */
 }
-.about .about-content .right a{
+.about .about-content .right .CV{
+    /* background: white; */
+    /* justify-content: space-evenly; */
+    column-gap: 50px;
+    display: flex;
+}
+.about .about-content .right .CV a{
     display: inline-block;
-    background: crimson;
-    color: #fff;
+    background: #2c6e49;
+    color: #e2dfd2;
     font-size: 20px;
     font-weight: 500;
     padding: 10px 30px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid crimson;
+    /* border: 2px solid crimson; */
     transition: all 0.3s ease;
 }
-.about .about-content .right a:hover{
-    color: crimson;
+.about .about-content .right .CV a:hover{
+    color: #2c6e49;
+    ;
     background: none;
 }
 
@@ -234,7 +242,7 @@ section .title::before{
 .about .skills-content .card .circle .number span,
 .about .skills-content .wrapper .card .text{
   /* -webkit-background-clip: text; */
-  color: white;
+  color: #e2dfd2;
 }
 .about .skills-content .circle .number span{
     font-size: 25px;
@@ -254,7 +262,7 @@ section .title::before{
 .about .education-experience{
     display: flex;
     column-gap: 30px;
-    color: whitesmoke;
+    color: #e2dfd2;
     align-items: flex-start;
     padding-top: 20px;
 }
@@ -279,11 +287,11 @@ section .title::before{
     font-size: 18px;
     /* text-decoration: none; */
     border-radius: 50%;
-    color: white;
+    color: #e2dfd2;
     width: 100%;
     height: 100%;
-    border: 8px solid red;
-    background-color: red;
+    border: 8px solid #2c6e49;
+    background-color: #2c6e49;
 }
 .about .education-experience .timeline .timeline-date{
     /* position: relative; */
@@ -330,11 +338,11 @@ section .title::before{
     font-size: 18px;
     /* text-decoration: none; */
     border-radius: 50%;
-    color: white;
+    color: #e2dfd2;
     width: 100%;
     height: 100%;
-    border: 8px solid red;
-    background-color: red;
+    border: 8px solid #2c6e49;
+    background-color: #2c6e49;
 }
 
 /* projects - section */
@@ -350,14 +358,14 @@ section .title::before{
     transition: all 0.3s ease;
 }
 .projects .carousel .card:hover{
-    background: crimson;
+    background: #2c6e49;
 }
 .projects .carousel .card .box{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: whitesmoke;
+    color: #e2dfd2;
 }
 .projects .carousel .card:hover .box{
     transform: scale(1.05);
@@ -366,14 +374,15 @@ section .title::before{
     height: 150px;
     width: 150px;
     object-fit: cover;
-    border: 5px solid crimson;
+    border: 5px solid #2c6e49;
     transition: all 0.3s ease;
 }
 .projects .carousel .card:hover img{
-    border-color: white;
+    border-color: #e2dfd2;
 }
 .projects .carousel .card .box h4{
     margin: 10px 0 7px 0;
+    font-size: 20px;
 }
 .owl-dots{
     text-align: center;
@@ -385,7 +394,7 @@ section .title::before{
     margin: 0 5px;
     outline: none!important;
     border-radius: 50%;
-    border: 2px solid crimson!important;
+    border: 2px solid #2c6e49!important;
 }
 .owl-dot.active{
     width: 35px;
@@ -393,7 +402,7 @@ section .title::before{
 }
 .owl-dot.active,
 .owl-dot.active:hover{
-    background: crimson ! important;
+    background: #2c6e49 ! important;
 }
 
 /* contact-section */
@@ -405,7 +414,7 @@ section .title::before{
     align-items: center;
     text-align: center;
     margin: auto;
-    color: whitesmoke;
+    color: #e2dfd2;
 }
 .contact .contact-row .left{
     width: 50%;
@@ -441,7 +450,7 @@ section .title::before{
 }
 .contact .bi{
     font-size: 40px;
-    color: white;
+    color: #e2dfd2;
 }
 .contact .social-media{
     text-align: left;
@@ -460,14 +469,14 @@ section .title::before{
     /* margin: 0 4px; */
     text-decoration: none;
     border-radius: 50%;
-    color: white;
+    color: #e2dfd2;
     fill: currentColor;
-    border: 2px solid crimson;
-    background-color: crimson;
+    border: 2px solid #2c6e49;
+    background-color: #2c6e49;
     transition: all 0.3s ease;
 }
 .contact .social-media a:hover{
-    color: crimson;
+    color: #2c6e49;
     background: none;
 }
 
@@ -475,11 +484,11 @@ section .title::before{
 footer{
     background: #111;
     padding: 15px 23px;
-    color: #fff;
+    color: #e2dfd2;
     text-align: center;
 }
 footer span a{
-    color: crimson;
+    color: #2c6e49;
     text-decoration: none;
 }
 footer span a:hover{
@@ -549,6 +558,12 @@ footer span a:hover{
     }
     .about .about-content .right{
         flex: 100%;
+    }
+    .about .about-content .right .CV{
+        /* background: white; */
+        justify-content: space-evenly;
+        /* column-gap: 50px; */
+        display: flex;
     }
     .about .education-experience {
         width: 100%;
@@ -624,6 +639,9 @@ footer span a:hover{
     }
     .about .about-content .right .text{
         font-size: 19px;
+    }
+    .about .about-content .right .CV{
+        display: inline-block;
     }
     .right form .error-box{
        width: 150px;

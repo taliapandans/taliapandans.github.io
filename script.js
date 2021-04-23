@@ -28,7 +28,7 @@ $(document).ready(function(){
         startAngle : -1.55,
         size: 150,
         value: 0.85,
-        fill: {color: "red"}
+        fill: {color: "#2c6e49"}
     }
     $(".circle .bar").circleProgress(options).on('circle-animation-progress',
     function(event, progress, stepValue){
