@@ -34,6 +34,9 @@ $(document).ready(function(){
     function(event, progress, stepValue){
         $(this).parent().find("span").text(String(stepValue.toFixed(2).substr(2)) + "%")
     });
+    $(".C .bar").circleProgress({
+        value : 0.30, 
+    });
     $(".Moffice .bar").circleProgress({
         value : 0.95, 
     });
@@ -44,7 +47,7 @@ $(document).ready(function(){
         value : 0.65, 
     });
     $(".Python .bar").circleProgress({
-        value : 0.50, 
+        value : 0.40, 
     });
     $(".Eagle .bar").circleProgress({
         value : 0.60, 
