@@ -148,8 +148,8 @@ section .title::before{
     width: 45%;
 }
 .about .about-content .left img{
-    height: 400px;
-    width: 400px;
+    height: 430px;
+    width: 430px;
     object-fit: cover;
     border-radius: 6px;
 }
@@ -477,7 +477,7 @@ section .title::before{
     display: flex;
     column-gap: 20px;
 }
-.contact .social-media a{
+.contact .social-media .fa-brands{
     display: inline-block;
     text-align: center;
     line-height: 45px;
@@ -493,7 +493,7 @@ section .title::before{
     background-color: crimson;
     transition: all 0.3s ease;
 }
-.contact .social-media a:hover{
+.contact .social-media .fa-brands:hover{
     color: crimson;
     background: none;
 }
